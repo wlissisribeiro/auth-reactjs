@@ -1,0 +1,26 @@
+.post{
+    padding:  2rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width: 50%;
+    background-color: aliceblue;
+}
+
+.title{}
+.content{}
+.author{}
+
+.section{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.section span{
+    cursor: pointer;
+    padding: 2px 4px;
+    background-color: #fff;
+    font-weight: 600;
+    font-size: .8rem;
+    border: 1px solid black;
+}

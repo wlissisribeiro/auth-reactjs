@@ -1,0 +1,50 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    padding: 1rem 3rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem ;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+}
+
+.btnLogout{
+    padding: .4rem 1rem;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(193, 193, 255);
+    font-weight: 600;
+}
+
+.btnLogout:hover{
+    background-color: rgb(159, 159, 245);
+}
+
+.posts{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(130, 130, 247);
+}
+.posts:hover{
+    color: rgb(104, 104, 246);
+
+}
+.name{
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.section_link{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.section_user{
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
