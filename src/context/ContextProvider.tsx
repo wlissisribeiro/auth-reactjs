@@ -63,8 +63,6 @@ export function ContextProvider({ children }: { children: JSX.Element }) {
 
         //redireciona a rota
         navigate("/home");
-
-        console.log(result.data);
     }
 
     function SignOut() {

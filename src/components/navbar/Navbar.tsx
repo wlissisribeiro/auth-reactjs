@@ -17,7 +17,7 @@ export const Navbar = () => {
       <div className={style.section_link}>
       <Link className={style.posts} to="/home">Blog</Link>
       <Link className={style.posts} to="/posts">Meus posts</Link>
-      <Link className={style.posts} to="#">Criar Post</Link>
+      <Link className={style.posts} to="/create">Criar Post</Link>
 
       </div>
       <div className={style.section_user}>

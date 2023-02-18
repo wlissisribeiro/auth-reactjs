@@ -8,6 +8,9 @@ import { api } from '../services/api'
 import { Navbar } from '../components/navbar/Navbar'
 import { Post } from '../components/post/Post'
 
+//style
+import style from './posts.module.css'
+
 export const Posts = () => {
   const navigate = useNavigate();
   const [postsUser, setPostsUser] = useState()
@@ -31,9 +34,10 @@ export const Posts = () => {
   }, [])
 
   return (
-    <div>
+    <div className={style.container}>
       <Navbar />
-      <div>
+      <h1 className={style.title}>Meus Posts</h1>
+      <div className={style.posts}>
         {
           postsUser?.map(post => {
             return (

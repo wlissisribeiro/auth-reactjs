@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
+import { CreatePost } from '../pages/CreatePost'
 import { Home } from '../pages/Home'
 import { Login } from '../pages/Login'
 import { Posts } from '../pages/Posts'
@@ -19,6 +20,11 @@ export function PagesRoutes() {
             <Route path="/posts" element={
                 <PrivateRoute>
                     <Posts />
+                </PrivateRoute>
+            } />
+            <Route path="/create" element={
+                <PrivateRoute>
+                    <CreatePost />
                 </PrivateRoute>
             } />
         </Routes>
